@@ -1,6 +1,6 @@
 body
 {
-    background-color: rgb(187, 178, 138);
+    background-color: rgb(206, 191, 126);
     text-align: justify;
     font-family: Verdana, sans-serif;
     color: white;
@@ -42,13 +42,15 @@ ul.izbornik1 li a:hover
 a.vrh
 {
     color: white;
-    background-color:#333;
     padding: 14px 16px;
     text-decoration: none;
     background-color: #c9972b;
     bottom: 0;
     right: 0;
     position: fixed;
+}
+.vrh:hover{
+    background-color:#333
 }
 h1.naslov2
 {
@@ -57,6 +59,7 @@ h1.naslov2
     font-family: fantasy, Arial, Helvetica, sans-serif;
     margin-top: 80px;
     margin-left: 40px;
+    margin-bottom: 10px;
 }
 /*index.html*/
 body.index
@@ -72,8 +75,16 @@ h1.naslov
     font-family: fantasy, Arial, Helvetica, sans-serif;
     margin-top: 90px;
     margin-left: 50px;
+    margin-bottom: 10px;
 }
-
+h1.naslov0
+{
+    color: rgb(80, 54, 36);
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    margin-left: 50px;
+}
 
 /*gallery.html*/
 img.gal_mapa
@@ -173,6 +184,13 @@ img.gal
 }
 
 /*about.html*/
+h2.podnaslov
+{
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    font-family: fantasy, Arial, Helvetica, sans-serif;
+    margin-left: 40px;
+}
 div.about
 {
     margin: 100px;
@@ -195,4 +213,58 @@ ul.pod
     font-size: 20px;
     font-family: sans-serif
 }
-/*index.html*/
+p.oc
+{
+    margin-left: 40px;
+    color: black;
+    font-size: 20px;
+    margin-right: 2em;
+    line-height: 1.5em;
+}
+p.oc1
+{
+    line-height: 1.5em;
+    margin-left: 40px;
+    margin-top: 100px;
+    color: black;
+    font-size: 20px;
+}
+img.about1
+{
+    float: right;
+    margin-right: 40px;
+    margin-top: 75px;
+    margin-left: 30px;
+    height: 450px;
+}
+img.sl
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+p.opsl
+{
+    text-align: center;
+    font-size: 20px;
+    color: black;
+}
+/*izreke.html*/
+p.citat{
+    text-align: center;
+    font-style: italic;
+    border-style: outset;
+    border-width: thick;
+    border-color:#74581d ;
+    padding: 15px;
+    margin-left: 2em;
+    margin-right: 2em;
+    color: black;
+    font-size: 20px;
+}
+p.op{
+    text-align: center;
+    color: black;
+    font-size: 18px;
+
+}
